@@ -37,6 +37,7 @@
 .contactoFooter{
   margin: 10px;
   font-weight: normal;
+  font-size: 1.7rem;
 }
 .redes {
   text-align: right; }
@@ -314,6 +315,10 @@ li {
   height: 55px;
   background-color: #A4320B !important;
   border: none !important; }
+  .logoSpotify{
+    width: 60px; 
+    height: 60px;
+   }
 
 /*---CONTACTO--*/
 .contactoImg {
@@ -564,28 +569,33 @@ margin-bottom: 20px;
     font-size: 1.2rem; }
   .tituloMenu {
     color: white;
-    font-size: 1.2rem; }
+    font-size: 1.3rem!important; }
   .botonBuscar {
     width: 75px !important;
     height: 30px; }
   .recomendacionAbrir {
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
     margin: 10px;
-    /*margin-top: 700px;*/
-    height: 200px; }
+    height: 250px; }
   .textoRecomedacion {
     justify-content: center;
     font-size: 1.8rem;
-    margin-top: 30px; }
+    margin-top: 30px;
+    margin-left: 50px;
+  }
   .botonRecomendacionEspacio {
-    padding: 35px; }
+    padding: 35px;
+    padding-left: 70px;
+  }
   .botonRecomedacion {
-    width: 200px;
-    height: 55px;
-    background-color: #A4320B !important;
-    border: none !important; }
+    width: 150px;
+    height: 40px;
+   }
+   .logoSpotify{
+    width: 45px; 
+    height: 45px;
+   }
   .fondoImg {
     background-image: url("../imagenes/music-store-back.jpg");
     background-attachment: local; }
@@ -595,7 +605,21 @@ margin-bottom: 20px;
     border: none !important;
     border-radius: 0px !important; }
   .botonCompra {
-    width: 230px !important; } }
+    width: 230px !important; }
+  .tamanioRedes{
+    width: 40px!important; 
+    height: 40px!important;
+  }
+  .footerFlex {
+    display: flex;
+    flex-direction: column;
+    }
+    .contactoFooter{
+      margin: 0;
+      font-size: 1rem;
+    }
+
+  }
 
 @media only screen and (max-width: 1024px) {
   .imgCompra {
