@@ -709,5 +709,8 @@ margin-bottom: 20px;
   .destacadosImg {
     width: 266px!important;
     }
+    .tituloMenu {
+      padding-left: 0px;
+    }
 }
 
