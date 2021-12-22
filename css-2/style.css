@@ -613,13 +613,28 @@ margin-bottom: 20px;
   .footerFlex {
     display: flex;
     flex-direction: column;
-    }
-    .contactoFooter{
-      margin: 0;
-      font-size: 1rem;
-    }
+  }
+  .contactoFooter{
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .precioCompra{
+    margin-left: 50px
+  }
+  .botonPrecio{
+    margin-left: 70px;
+    margin-bottom: 10px;
 
   }
+  .redesContacto{
+    margin-top: 15px;
+  }
+  .textContacto {
+    margin-top: 10px;
+    font-size: 1rem; 
+  }
+}
 
 @media only screen and (max-width: 1024px) {
   .imgCompra {
