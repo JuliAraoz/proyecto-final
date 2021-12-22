@@ -524,6 +524,22 @@ li {
   background-color: #A4320B !important;
   border: none !important;
   border-radius: 0px !important; }
+.tituloCompra{
+font-size: 2.5rem;
+}
+.precioCompra{
+font-size: 3rem;
+margin-bottom: 20px;
+}
+.botonPrecio{
+  width: 150px;
+  height: 60px;
+  margin-top: 10px;
+}
+.descripcionCompra{
+  display: flex;
+  justify-content: center;
+}
 
 @media only screen and (max-width: 480px) {
   .imgCompra {
