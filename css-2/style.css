@@ -30,7 +30,8 @@
 
 .footer {
   background-color: #636363;
-  padding: 30px; }
+  padding: 30px;
+ }
 
 .terminos {
   text-align: center; }
@@ -45,7 +46,7 @@
 .destacadosImg {
   width: 266px;
   height: 330px;
-  /*margin-left: 50px;*/ }
+  }
 
 .boton {
   color: white;
@@ -73,7 +74,8 @@
   background-color: #9e3f1f !important; }
 
 body {
-  background-color: #dfdfdf !important; }
+  background-color: #dfdfdf !important;
+ }
 
 .header {
   background-color: #A4320B; }
@@ -144,23 +146,19 @@ body {
   margin-bottom: 30px; }
 
 .tituloFondo {
-  font-family: "Source Sans Pro", sans-serif !important;
   color: #f9f9f9;
-  font-size: 3rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  font-weight: bold;
+}
 
 .tituloMenu {
-  font-family: "Archivo Narrow", sans-serif !important;
   font-size: 2rem !important;
   color: #f9f9f9;
-  /*display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    margin-left: 200px;*/ }
+  padding-left: 100px;
+}
 
 .linkTitulo {
   text-decoration: none; }
@@ -493,7 +491,7 @@ li {
 .pagosEnvios {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 90%;
   margin: 20px;
   margin-top: 50px; }
 
@@ -510,6 +508,9 @@ li {
 
 .tituloRecomendado {
   margin-bottom: 20px; }
+.tituloRecomendacion{
+  color: rgb(2, 89, 2);
+}
 
 .imgCompra {
   background-image: url(../imagenes/bateria-compra.png);
@@ -545,6 +546,72 @@ margin-bottom: 20px;
   display: flex;
   justify-content: center;
 }
+/*---M E D I A   Q U E R I E S---*/
+@media only screen and (max-width: 1024px) {
+  main{
+    background-color: #e1e1e1;
+  }
+  .imgCompra {
+    width: 100%;
+    height: 465px;
+    margin-top: 45px; }
+  .gridCompraFlex {
+    display: flex;
+    justify-content: space-between; }
+  .imgRecomendado {
+    width: 165px;
+  }
+  .botonCompra {
+    width: 165px!important; }
+  .botonPrecio{
+    width: 100px;
+  }
+  .botonProductos {
+    width: 225px !important;
+    background-color: #A4320B !important;
+    border: none !important;
+    border-radius: 0px !important; }
+    .pagosEnvios {
+      width: 90%;
+      margin-left: 50px;
+      margin-top: 50px; }
+    .destacadosImg {
+      width: 225px;
+      height: 330px;
+    }
+    .espacioProductos {
+      margin: 0px;
+      margin-bottom: 30px;
+    }
+    .recomendacionAbrir {
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+      height: 250px; }
+    .textoRecomedacion {
+      justify-content: center;
+      font-size: 2.5rem;
+      margin-top: 30px;
+      margin-left: 50px;
+    }
+    .botonRecomendacionEspacio {
+      padding: 35px;
+      padding-left: 180px;
+    }
+    .botonRecomedacion {
+      width: 300px;
+      height: 60px;
+     }
+     .logoSpotify{
+      width: 60px; 
+      height: 60px;
+     }
+    .esapcioFooterContancto{
+      margin-bottom: 290px;
+    }
+   }
+
+
 
 @media only screen and (max-width: 480px) {
   .imgCompra {
@@ -564,7 +631,9 @@ margin-bottom: 20px;
     width: 70%;
     margin-left: 0px; }
   .imgRecomendado {
-    margin-top: 50px; }
+    margin-top: 50px;
+    width: 230px!important;
+  }
   .tituloForm {
     font-size: 1.2rem; }
   .tituloMenu {
@@ -600,7 +669,7 @@ margin-bottom: 20px;
     background-image: url("../imagenes/music-store-back.jpg");
     background-attachment: local; }
   .botonProductos {
-    width: 2660px !important;
+    width: 266px !important;
     background-color: #A4320B !important;
     border: none !important;
     border-radius: 0px !important; }
@@ -634,22 +703,11 @@ margin-bottom: 20px;
     margin-top: 10px;
     font-size: 1rem; 
   }
+  .espacioProductos {
+    margin: 20px; 
+  }
+  .destacadosImg {
+    width: 266px!important;
+    }
 }
 
-@media only screen and (max-width: 1024px) {
-  .imgCompra {
-    width: 100%;
-    height: 400px;
-    margin-top: 10px; }
-  .gridCompraFlex {
-    display: flex;
-    justify-content: space-evenly; }
-  .imgRecomendado {
-    width: 230px; }
-  .botonProductos {
-    width: 266px !important;
-    background-color: #A4320B !important;
-    border: none !important;
-    border-radius: 0px !important; }
-  .botonCompra {
-    width: 230px !important; } }
